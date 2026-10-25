@@ -1,0 +1,20 @@
+# Core
+numpy
+pandas
+scipy
+matplotlib
+
+# Geospatial / imagery
+rasterio
+opencv-python
+
+# Magnetometer / World Magnetic Model
+pywmm
+pygeomag
+
+# Excel I/O (used by pandas.to_excel / read_excel)
+openpyxl
+
+# Optional - only used by tools/inspect_geotiff.py as an alternative GeoTIFF
+# reader; the script falls back to rasterio automatically if this isn't installed.
+# GDAL

@@ -1,0 +1,10 @@
+					pixel size X cm		pixel size y cm
+Urban(Tehran) - level 19 			24			24
+Urban(Tehran) - level 18			48			48
+Urban(Tehran) - level 17			96			96
+Urban(Tehran) - level 16			193			193
+
+
+alt	fov	px size img		pixel size cm	
+50	90	512			20	
+400	90	512			160

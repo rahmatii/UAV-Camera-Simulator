@@ -1,0 +1,28 @@
+ENU path and IMU gen
+geotif file = Urban(Tehran).tif
+
+Altitude = 400 ± 10
+The data related to frames is in the file trajectory_full_data.csv, and the IMU and magnetometer data with and without noise is in the file PathIMU.xlsx.
+
+R_IC​=[1	 0	0
+      0  -1	0
+      0  0	-1]
+​
+​
+
+K(intrinsic) = [256,   0,  256]
+                [  0, 256,  256]
+                [  0,   0,    1]
+                
+FOV = 90 deg
+Width , Height = 512 X 512
+Δt(frames) = 0.0333 
+fps = 30 
+
+IMU & magnetometer Freq = 300 Hz
+
+Speed = (250 ± (2% +0.5 )sin(t), 0 ± (2% + 0.5)sin(t) , 0 ± (2% + 0.5)sin(t)) 
+
+roll , pitch , yaw initial = 0 ± 10 deg,0 ± 5 deg ,0 ± 2 deg
+
+
