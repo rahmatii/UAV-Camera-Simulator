@@ -20,10 +20,7 @@ Camera-to-body/IMU frame
 The camera looks down its own −Z axis. To express this orientation in the body/IMU frame (Z = Up), the sensor rig applies a 180° rotation around the X axis:
 R_cb = Rot.from_euler("x", 180, degrees=True).as_matrix()
 
-# R_cb =
-# [[ 1,  0,  0],
-#  [ 0, -1,  0],
-#  [ 0,  0, -1]]
+R_cb = [[ 1,  0,  0],[ 0, -1,  0],[ 0,  0, -1]]
 The coordinate conversion is:
 v_body = R_cb @ v_camera
 Sample rates
